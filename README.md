@@ -27,17 +27,17 @@ sudo apt-get autoremove
 ```shell 
 ubuntu-drivers devices 
 ```
-* Step 5: 
+* Step 5 (where $version is the version number to install, eg. 495, 510): 
 ```shell 
-sudo apt install libnvidia-common-$version (where $version is the version number to install, eg. 495, 510) 
+sudo apt install libnvidia-common-$version 
 ```
-* Step 6: 
+* Step 6 (where $version is the version number to install, eg. 495, 510): 
 ```shell 
-sudo apt install libnividia-gl-$version (where $version is the version number to install, eg. 495, 510) 
+sudo apt install libnividia-gl-$version  
 ```
-* Step 7: 
+* Step 7 (where $version is the version number to install, eg. 495, 510): 
 ```shell 
-sudo apt install nvidia-driver-$version (where $version is the version number to install, eg. 495, 510) 
+sudo apt install nvidia-driver-$version 
 ```
 * Step 8: 
 ```shell 
