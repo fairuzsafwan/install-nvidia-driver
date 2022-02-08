@@ -1,8 +1,8 @@
 # install-nvidia-driver
 Script to fresh install nvidia driver (purge, reinstall and reboot)
 
-** * You can run the script with the command provided below or run each commands step-by-step. **
-** * For a freshly installed ubuntu machine, you can skip Step 1-3 and start from step 4 onward. **
+** You can run the script with the command provided below or run each commands step-by-step. **
+** For a freshly installed ubuntu machine, you can skip Step 1-3 and start from step 4 onward. **
 
 How to run script:
 ```shell
