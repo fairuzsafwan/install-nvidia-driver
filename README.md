@@ -8,13 +8,33 @@ The script does the following in sequence:
 sudo apt-get purge nvidia-* 
 ```
 * Step 2: 
-```shell sudo apt-get update ```
-* Step 3: ```shell sudo apt-get autoremove ```
-* Step 4: ```shell ubuntu-drivers devices ```
-* Step 5: ```shell sudo apt install libnvidia-common-$version (where $version is the version number to install, eg. 495, 510) ```
-* Step 6: ```shell sudo apt install libnividia-gl-$version (where $version is the version number to install, eg. 495, 510) ```
-* Step 7: ```shell sudo apt install nvidia-driver-$version (where $version is the version number to install, eg. 495, 510) ```
-* Step 8: ```shell sudo reboot ```
+```shell 
+sudo apt-get update 
+```
+* Step 3: 
+```shell 
+sudo apt-get autoremove 
+```
+* Step 4: 
+```shell 
+ubuntu-drivers devices 
+```
+* Step 5: 
+```shell 
+sudo apt install libnvidia-common-$version (where $version is the version number to install, eg. 495, 510) 
+```
+* Step 6: 
+```shell 
+sudo apt install libnividia-gl-$version (where $version is the version number to install, eg. 495, 510) 
+```
+* Step 7: 
+```shell 
+sudo apt install nvidia-driver-$version (where $version is the version number to install, eg. 495, 510) 
+```
+* Step 8: 
+```shell 
+sudo reboot 
+```
 
 After reboot is completed, you can check if nvidia driver is installed by running the following command:
 ```shell
