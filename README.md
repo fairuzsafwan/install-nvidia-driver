@@ -3,7 +3,7 @@ Script to fresh install nvidia driver (purge, reinstall and reboot)
 
 The script does the following in sequence:
 
-* Step 1: sudo apt-get purge nvidia-*
+* Step 1: ```shellsudo apt-get purge nvidia-*```
 * Step 2: sudo apt-get update
 * Step 3: sudo apt-get autoremove
 * Step 4: ubuntu-drivers devices
