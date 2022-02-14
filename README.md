@@ -11,7 +11,7 @@ chmod +x fresh_install_nvidiaDriver.sh
 ```
 
 The script does the following in sequence:
-* Step 1: 
+* Step 1:  
 ```shell 
 sudo apt-get purge nvidia-* 
 ```
